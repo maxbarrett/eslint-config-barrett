@@ -121,8 +121,8 @@ module.exports = {
         'keyword-spacing': 2,
         'linebreak-style': [2, 'unix'],
         'lines-around-comment': 2,
-        "max-depth": [2,4],
-        "max-len": [1, 300, 4],
+        'max-depth': [2,4],
+        'max-len': [1, 300, 4],
         'max-nested-callbacks': [1, 3],
         'max-params': [1, 6],
         'max-statements': 0,
@@ -150,7 +150,7 @@ module.exports = {
         'no-spaced-func': 2,
         'no-ternary': 0,
         'object-curly-spacing': [2, 'always'],
-        "one-var": [2, "never"],
+        'one-var': [2, 'never'],
         'operator-assignment': 0,
         'operator-linebreak': [2, 'after'],
         'padded-blocks': 0,
@@ -179,7 +179,8 @@ module.exports = {
         'jsx-quotes': [2, 'prefer-double'],
         'react/react-in-jsx-scope': 2,
         'react/jsx-indent-props': [2, 4],
-        'react/jsx-no-bind': 0
+        'react/jsx-no-bind': 0,
+        'react/jsx-indent': [1, 4]
     },
 
     env: {
